@@ -2,9 +2,9 @@ name: Enigma2 CI
 
 on:
   push:
-    branches: [ Dev ]
+    branches: [ Python3.10, Python3.10-FCC ]
   pull_request:
-    branches: [ Dev ]
+    branches: [ Python3.10, Python3.10-FCC ]
 
 jobs:
   build:
